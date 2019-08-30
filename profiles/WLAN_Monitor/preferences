@@ -212,7 +212,7 @@
 
 # Packet list hidden columns
 # List all columns to hide in the packet list.
-gui.column.hidden: %s,%d,%p
+gui.column.hidden: %s,%d,%p,%Cus:wlan.fc:0:R
 
 # Packet list column format
 # Each pair of strings consists of a column title and its format
@@ -231,6 +231,7 @@ gui.column.format:
 	"Sequence", "%Cus:wlan.seq:0:R",
 	"Fragment", "%Cus:wlan.frag:0:R",
 	"Length", "%L",
+	"FC", "%Cus:wlan.fc:0:R",
 	"Info", "%i"
 
 ####### User Interface: Font ########
